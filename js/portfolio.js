@@ -7,6 +7,7 @@ $(document).ready(function(){
       dotnavigation();
     });
     
+        
     function dotnavigation(){
              
         var numSections = $('section').length;

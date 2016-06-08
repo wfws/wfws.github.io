@@ -62,19 +62,59 @@ section {
 }
 
 
+
+
 #home{
 	background: #ffce00;
+	padding: 25px;
+}
+#home-small{
+color:#0375B4;
 }
 
 #about{
 	background: #0375b4;
+	padding: 25px;
+}
+#about-small{
+	color:#f7dd76;
+}
+.video-container{
+	position:relative;
+	padding-bottom: 56.25%;
+	padding-top: 35px; 
+	height:0; 
+	overflow:hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #projects{
-	background: #007849
+	background: #007849;
+	padding: 25px;
 } 
+#projects-small{
+	color:#243333;
+}
 
 #contact{
-	background: #262228
+	background: #262228;
+	padding: 25px;
+	color:#4ccece;
 }
+#contact-small{
+color:ivory;
+}
+.well{
+	background: #262228;
+	border-width: 0 px;
+	border-radius: 10px;
+	color:#4ccece;
+	}
+
 
