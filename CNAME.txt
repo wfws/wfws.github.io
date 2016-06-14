@@ -1,1 +1,2 @@
 www.wfws.com
+for custome domain name remove this line.  
