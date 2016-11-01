@@ -11,10 +11,13 @@
     <script src=/js/portfolio.js></script>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 
 </head>
 
 <body>
+    <!--NAVIGATION -->
     <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -27,7 +30,7 @@
   <div class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
 	 <li class="active"><a href="#home">Home</a>
-      <li><a href="#about">About</a></li>
+      <li><a href="#about">Timeline</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
       </li>
@@ -40,7 +43,7 @@
             <li class="awesome-tooltip active" title="Home">
                 <a href="#home"></a>
             </li>
-            <li class="awesome-tooltip" title="About">
+            <li class="awesome-tooltip" title="Timeline">
                 <a href="#about"></a>
             </li>
             <li class="awesome-tooltip" title="Projects">
@@ -55,40 +58,65 @@
 <!-- Social Sidebar --> 
 <aside id = "sticky-social">
     <ul>
-        <li><a href="#" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
+        <li><a href="#" class="entypo-facebook" target="_blank"><span >Facebook</span></a></li>
         <li><a href="#" class="entypo-linkedin" target="_blank"><span>LinkedIn</span></a></li>
         <li><a href="#" class="entypo-gplus" target="_blank"><span>Google+</span></a></li>
     </ul>
 </aside>
-    
-    <div id="main" class="container">
+
+
+<!-- HOME section -->
+    <div id="main" class="container"> 
         <section id="home">
             <article>
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Wayne Cordrey <small id="home-small">Web Portfolio</small></h1> 
                         <p>Updated June 2016 </p>
-                         <img src="http://res.cloudinary.com/fcc4590/image/upload/e_hue:8/v1464885029/Picture_1_tcipdt.png" 
+                <div class="row">
+                    <div class="col-xs-12 col-md-3"><img src="http://res.cloudinary.com/fcc4590/image/upload/e_hue:8/v1464885029/Picture_1_tcipdt.png" 
                                     alt="Picture of Wayne Cordrey"
-                                    class="img-thumbnail img-responsive"
-                                    width="300"
-                                    height="15075">
+                                    class="img-rounded img-responsive"
+                                    width="200px"
+                                    height="100px"></div>
+                    <div class="col-xs-12 col-md-9"> <p> Design is not limited to web pages, or media.  Its everywhere, for bettter
+                        or worse.  My goal is to balance aesthetics and usability.  I enjoy the psychology of good user 
+                        interface design- its great when a site works not just as a matter of function, but communicates well 
+                        and inspires interaction.  Color and texture, action and interaction, smooth responsiveness and scaleability 
+                        are all essential components of my web designs. 
+                        Whether I'm working with a designer, layering design into a client's sketch, or working within limits to
+                        develop page mechanics, I welcome the responsibility to develop clean, articulate designs and 
+                        communicate fully during the process.  Web designs are by nature collaborations, blending artistic
+                        sensibility with usability, while still providing clean functionallity, maintainability and scaleability. 
+                        Working to make these aspects flow is what I find so deeply satisfying about front end design. 
+                        </p>
+                    </div>
+                   
+                        
+                                           
+                       
+
+                    </div>
                     </div>
                 </div>
             </article>
         </section>
+
+
+
+<!-- ABOUT section --> 
         <section id="about">
             <article>
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>About  <small id="about-small">Learn About Wayne</small></h1>
+                        <h1>Timeline  <small id="about-small">  Three Main Threads  </small></h1>
                         <p>
-                            I'm really something.  
+                            Here's a about with three interwoven threads- Education, Career, and Entrepreneurship. '
                         </p>
                         <div class="video-container">
                         <iframe src="http://waynecordrey.com" 
-                        frameborder="18" 
-                        height=315px
+                        //frameborder="18" 
+                        height=200px
                         width=560px
                         allowfullscreen=""
                         frameborder=0></iframe>
@@ -97,69 +125,22 @@
                 </div>
             </article>
         </section>
+
+
+
+<!-- PROJECTS section --> 
         <section id="projects">
             <article>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Projects <small id="projects-small">Web Portfolio</small></h1>
-                        <p>
-                            <h2>Here are some examples of my projects! </h2>
-                        </p>
-                        <div class="container-responsive">
-                        <div class="well">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="well">
-                                    <p>Project 1 Klickitat River</p>
-                                    <img src="http://res.cloudinary.com/fcc4590/image/upload/c_scale,w_250/v1464805608/Klickitat_i4gzbf.png" 
-                                    alt="Picture of Klickitat River"
-                                    class="img-thumbnail img-responsive"
-                                    width="150"
-                                    height="75">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="well">
-                                    <p>Project 2 Catherine Creek</p>
-                                    <img src="http://res.cloudinary.com/fcc4590/image/upload/c_scale,w_150/v1463316511/CatherineCreek_qs3mg9.png"
-                             
-                                    alt="Pic of misty Catherine Creek "
-                                    class="img-thumbnail img-responsive"
-                                    width="150"
-                                    height="75">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="well">
-                                    <p>Project 3 placeholder</p>
-                                     <img src="http://res.cloudinary.com/fcc4590/image/upload/c_scale,w_257/v1463316508/FallsPhotographer_q29u7d.png"
-                                    alt="Picture of Falls Creek Falls"
-                                    class="img-thumbnail img-responsive"
-                                    width="150"
-                                    height="75" 
-                                    </div>
-                            </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="well">
-                                    <p>Project 4 placeholder</p>
-                                    <img src="http://res.cloudinary.com/fcc4590/image/upload/c_scale,w_150/v1463315023/MtHood_d7uv8g.png"
-                                    alt="Picture of Falls Creek Falls"
-                                    class="img-thumbnail img-responsive"
-                                    width="150"
-                                    height="75" 
-                                </div>
-                            </div>
-                            
-                        
-                        </div>
-</div>
-                    </div>
-                </div>
+                <h1>Projects <small id="projects-small">Web Portfolio</small></h1>
+                <p>Watch as I fill this with projects from Free Code Camp! </p>
+
             </article>
         </section>
+
+
+
+
+<!-- CONTACT section --> 
         <section id="contact">
             <article>
                 <h1>Contact <small id="contact-small">Various ways to reach me</small></h1>
